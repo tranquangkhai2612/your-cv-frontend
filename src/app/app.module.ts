@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { ProfileComponent } from './profile/profile.component';
-import { CVComponent } from './cv/cv.component';
-import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { CVComponent } from './pages/cv/cv.component';
+import { HeaderComponent } from './others/header/header.component';
 import { FooterComponent } from './others/footer/footer.component';
 
 @NgModule({
