@@ -11,6 +11,7 @@ import { FooterComponent } from './others/footer/footer.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { RouterModule, Routes } from '@angular/router';
+import { Page404Component } from './pages/page404/page404.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -26,7 +27,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     SignupComponent,
-    SigninComponent,  
+    SigninComponent,
+    Page404Component,  
   ],
   imports: [
     BrowserModule,
