@@ -200,22 +200,22 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #219ebc !important;
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      color: #219ebc !important;
   }
 
 /*==================================================
                       ABOUT
 ====================================================*/
-  #about {
+  /* #about {
       background-image: url(../img/profile-banner.jpg); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-  }
+  } */
 
   #about h1 {
     /*font-size: 100%;*/
